@@ -16,11 +16,16 @@
 }
 
 #player-options {
-    width: 1101px;
+    /* width: 1101px;
     height: 260px;
-    margin: auto;
+    margin: auto; */
     font-weight: bold;
     font-size: xx-large;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 
 .score {
