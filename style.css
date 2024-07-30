@@ -1,0 +1,28 @@
+* {
+    text-align: center;
+}
+
+#results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 750px;
+    margin: auto;
+}
+
+#results-text {
+    flex-grow: 1;
+}
+
+#player-options {
+    width: 1101px;
+    height: 260px;
+    margin: auto;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.score {
+    font-style: italic;
+}
